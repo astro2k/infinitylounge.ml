@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+
+
+.footer {
+    padding: 24px 0;
+}
+.footer {
+    text-align: center !important;
+    background: #23272A !important;
+    padding: 5px 6px !important;
+    color: #ecf2ff;
+    font-size: 14px !important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    color: #2c2c2c;
+    font-size: 14px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #23272A;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 6px #7289DA solid !important;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.footer:after {
+    display: table;
+    clear: both;
+    content: " ";
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #23272A;
+   color: white;
+   font-family: verdana;
+   text-align: center;
+}
+
+footer {
+text-align: Left;
+color: white;
+font-family: verdana;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p4 {
+text-align: Center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #2C2F33;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+button {
+  color: #FFFFFF;
+  background-color: #7289DA;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+a:hover, button:hover {
+  opacity: .7;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.navbar .nav-item:not(:last-child) {
+  float: left;
+  padding: 10px;
+}
+
+
+.navbar .nav-item:last-child {
+  float: right;
+  padding: 10px 15px;
+  margin: 10px;
+  background-color: #7289DA;
+  border-radius: 10px;
+}
+
+.hero-section {
+  background-color: #2C2F33;
+  background-image: url("header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16.8em 0 14.8em 0;
+  border-radius: 0 0 50px 50px;
+
+}
+
+.hero-title {
+  margin: 15px;
+}
+
+.hero-description {
+  margin: 20px;
+}
+
+.hero-btn {
+  background: linear-gradient(45deg, #7289DA, #7289DA);
+  
+}
+
+.s-m-section {
+  background: linear-gradient(45deg, #23272A, #23272A);
+  padding: 20px;
+}
+
+
+.s-m-title {
+  margin: 20px;
+}
+
+.s-m-descritpion {
+  margin: 0 0 40px 0;
+}
+
+.s-m-btn {
+  color: #FFFFFF;
+  padding: 8px 20px;
+  background: #7289DA;
+}
+
+.s-m-btn-2 {
+  background-color: #7289DA;
+  padding: 8px 20px;
+  color: #FFFFFF;
+}
+
+.time-load-section {
+  background: linear-gradient(0deg, #2C2F33 40%, #2C2F33 40%);
+  padding: 100px 0;
+}
+
+.card {
+  padding: 60px;
+  border-radius: 10px;
+  background: #7289DA;
+  color: #FFFFFF;
+  margin: 15px;
+  box-shadow: -1px 1px 20px 2px #00000030;
+}
+
+.statics-section {
+  background-color: #23272A;
+  color: #FFFFFF;
+  padding: 70px;
+}
+
+.statics-description {
+  margin: 10px 0 50px 0;
+}
+
+.statics-rows {
+  flex: 33.33%;
+}
+
+.feutures-section {
+  padding: 85px 60px;
+  background-image: url("wave.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.feutures-card {
+  padding: 15px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .card {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .statics-rows {
+    flex: 100%;
+    -ms-flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .statics-rows {
+    flex: 33.33%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    -ms-flex: 0 0 45%;
+     flex: 0 0 45%; 
+     max-width: 45%;
+  }
+  .statics-rows {
+    flex: 33.33%;
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+  }
+}
+
+// Smooth scrolling IF user doesn't have a preference due to motion sensitivities
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
+.back-to-top-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #D6E3F0;
+  // emoji don't behave like regular fonts
+  // so this helped position it correctly
+  padding: 0.25rem;
+
+// How far of a scroll travel within <main> prior to the
+// link appearing
+$scrollLength: 100vh;
+
+.back-to-top-wrapper {
+  // uncomment to visualize "track"
+  // outline: 1px solid red;
+  position: absolute;
+  top: $scrollLength;
+  right: 0.25rem;
+  // Optional, extends the final link into the 
+  // footer at the bottom of the page
+  // Set to `0` to stop at the end of `main`
+  bottom: -5em;
+  // Required for best support in browsers not supporting `sticky`
+  width: 3em;
+  // Disable interaction with this element
+  pointer-events: none;
+}
+
+main {
+  // leave room for the "scroll track"
+  padding: 0 3rem;
+  // required to make sure the `absolute` positioning of
+  // the anchor wrapper is indeed `relative` to this element vs. the body
+  position: relative;
+  max-width: 50rem;
+  margin: 2rem auto;
+
+  // Optional, clears margin if last element is a block item 
+  *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.back-to-top-link {
+  // `fixed` is fallback when `sticky` not supported
+  position: fixed;
+  // preferred positioning, requires prefixing for most support, and not supported on Safari
+  // @link https://caniuse.com/#search=position%3A%20sticky
+  position: sticky;
+  // reinstate clicks
+  pointer-events: all;
+  // achieves desired positioning within the viewport
+  // relative to the top of the viewport once `sticky` takes over, or always if `fixed` fallback is used
+  top: calc(100vh - 5rem);
+
+  // ... styles written earlier
+}   
+
+  new Crate({
+    server: '631197787790508084',
+    channel: '631795757803896851',
+  })
+
